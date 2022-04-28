@@ -1,0 +1,28 @@
+.root {
+  text-align: center;
+  background-color: #fff;
+  height: 40px;
+  border-bottom: 1px solid #e4e6f0;
+}
+
+.dropdown {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  font-size: 17px;
+  background-color: #fff;
+}
+
+.dropdown :global(.icon-below-s) {
+  margin-left: 3px;
+  color: #bbb;
+  font-size: 12px;
+}
+
+.selected {
+  color: #21b97a;
+}
+
+.selected :global(.icon-below-s) {
+  color: #21b97a;
+}
